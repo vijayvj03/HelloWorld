@@ -4,4 +4,5 @@ services:
         build: .
         ports:
             - "8000:5000"
+        command: bash -c "dotnet run"
        
